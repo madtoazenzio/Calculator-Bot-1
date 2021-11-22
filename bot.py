@@ -30,15 +30,15 @@ START_TEXT = """
 
 ▷ 𝐒𝐞𝐧𝐝 𝐦𝐞 /calculator 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐚𝐧𝐝 𝐒𝐞𝐞 𝐌𝐚𝐠𝐢𝐜. 
 
-𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 𝐛𝐲 ❤️ [@𝐓𝐡𝐞𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝](https://t.me/TheTeleRoid)
+𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 𝐛𝐲 ❤️ [@𝐙 𝐁𝐨𝐭𝐬](https://t.me/Z_Bots)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📕 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞', url='https://github.com/PredatorHackerzZ/Calculator-Bot'),
-        InlineKeyboardButton('👥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ', url='https://t.me/TeleRoidGroup')
+        InlineKeyboardButton('⚡ 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 ⚡', url='https://t.me/Z_Bots'),
+        InlineKeyboardButton('👥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ', url='https://t.me/Z_Bots')
         ]]
     )
-CALCULATE_TEXT = "▷ 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 𝐛𝐲 @TheTeleRoid"
+CALCULATE_TEXT = "▷ 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 𝐛𝐲 @Z_Bots"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("DEL", callback_data="DEL"),
